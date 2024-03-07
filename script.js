@@ -1,4 +1,5 @@
 let stream = null
+let mediaStream = null
 const constraints = {
     audio: true,
     //video: true
