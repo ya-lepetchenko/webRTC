@@ -8,6 +8,7 @@ const buttonsById = [
     'stop-record','play-record','share-screen'
 ]
 
+
 //buttonEls will be an array of dom elements in order of buttonsById
 const buttonEls = buttonsById.map(buttonId=>document.getElementById(buttonId));
 
